@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\RegisterController.cs" />
+    <Compile Remove="Controllers\ValuesController.cs" />
+    <Compile Remove="Migrations\20200306183424_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200306183424_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200311164112_comment.cs" />
+    <Compile Remove="Migrations\20200311164112_comment.Designer.cs" />
+    <Compile Remove="Migrations\20200312153016_CreateProduct.cs" />
+    <Compile Remove="Migrations\20200312153016_CreateProduct.Designer.cs" />
+    <Compile Remove="Migrations\20200312153750_CreateProduct.cs" />
+    <Compile Remove="Migrations\20200312153750_CreateProduct.Designer.cs" />
+    <Compile Remove="Migrations\20200312195259_CreateCommentImageModel.cs" />
+    <Compile Remove="Migrations\20200312195259_CreateCommentImageModel.Designer.cs" />
+    <Compile Remove="Migrations\20200312222755_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200312222755_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200312223110_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200312223110_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200316025015_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200316025015_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200316025356_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200316025356_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200316031846_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200316031846_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200317010114_Update.cs" />
+    <Compile Remove="Migrations\20200317010114_Update.Designer.cs" />
+    <Compile Remove="Migrations\20200317024420_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200317024420_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200317042803_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200317042803_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200317044334_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200317044334_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200317053855_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200317053855_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200317060006_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200317060006_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200317062601_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200317062601_InitialCreate.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.10" />
+  </ItemGroup>
+
+</Project>
